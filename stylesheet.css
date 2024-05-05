@@ -1,100 +1,109 @@
-
-* {
+ * {
     margin: 0;
-    padding: 0;}
-    .navContainer {
-        padding-top: 20px;
-        height: 45px;
-        background-color: grey;
-        display: flex;
-        justify-content: space-between;}
-    .navItems {
-        display: flex;
-        flex-direction: row;}
+    padding: 0;
+  }
   
-      .aboutMeContainer {
-          display: flex;
-          flex-direction: row;
-          padding-top: 50px;
-          width: 1500px;
-      }
+  .navContainer {
+      padding-top: 20px;
+      height: 45px;
+      background-color: grey;
+      display: flex;
+      justify-content: space-between;
+  }
   
-      .aboutMeHeader {
-          padding-right: 20px;
-          border-right: solid red 7px;
-      }
+  .navItems {
+      display: flex;
+      flex-direction: row;
+  }
   
-      .aboutMeParagraph {
-          padding-left: 20px;
-      }
+  .aboutMeContainer {
+      display: flex;
+      flex-direction: row;
+      padding-top: 50px;
+      width: 1500px;
+  }
   
-      .workHistoryContainer {
-          display: flex;
-          flex-direction: row;
-          padding-top: 50px;
-          width: 1500px;
-      }
+  .aboutMeHeader {
+      padding-right: 20px;
+      border-right: solid red 7px;
+  }
   
-      .workHistoryHeader {
-          padding-right: 20px;
-          border-right: solid red 7px;
-      }
+  .aboutMeParagraph {
+      padding-left: 20px;
+  }
   
-      .workHistoryContainer {
-          display: flex;
-      }
+  .workHistoryContainer {
+      display: flex;
+      flex-direction: row;
+      padding-top: 50px;
+      width: 1500px;
+  }
   
-      .workHistoryPhotos {
-          padding-left: 20px;
-      }
+  .workHistoryHeader {
+      padding-right: 20px;
+      border-right: solid red 7px;
+  }
   
-      .portfolioContainer {
-          display: flex;
-          align-items: center;
-          flex-direction: column;
-      }
+  .workHistoryContainer {
+      display: flex;
+  }
   
-      p {
-          font-size: 22px;
-          margin-right: 25px;
-          font-weight: bold;
-      }
+  .workHistoryPhotos {
+      padding-left: 20px;
+  }
   
-      a {
-          text-decoration: none;
-          color: inherit;
-      }
+  .portfolioContainer {
+      display: flex;
+      align-items: center;
+      flex-direction: column;
+  }
   
-      a:hover {
-          color: darkgrey;
-      }
+  p {
+      font-size: 22px;
+      margin-right: 25px;
+      font-weight: bold;
+  }
   
-      img {
-          width: 500px;
-          height: 300px;
-          padding-right: 20px;
-          padding-bottom: 20px;
-          border-radius: 15px;
-      }
+  a {
+      text-decoration: none;
+      color: inherit;
+  }
   
-      img:hover {
-          opacity: 50%;
-      }
-
-      .contactMeContainer {
-        display: flex;
-        flex-direction: row;
-        padding-top: 50px;
-        width: 1500px;
-    }
-
-    .contactMeHeader {
-        padding-right: 20px;
-        border-right: solid red 7px;
-    }
-
-    .contactMe {
-        padding-left: 20px;
-        display: flex;
-        flex-direction: row;
-    }
+  a:hover {
+      color: darkgrey;
+  }
+  
+  img {
+      width: 500px;
+      height: 300px;
+      padding-right: 20px;
+      padding-bottom: 20px;
+      border-radius: 15px;
+  }
+  
+  img:hover {
+      opacity: 50%;
+  }
+  
+  .contactMeContainer {
+      display: flex;
+      flex-direction: row;
+      padding-top: 50px;
+      padding-bottom: 50px;
+      width: 1500px;
+  }
+  
+  .contactMeHeader {
+      padding-right: 20px;
+      border-right: solid red 7px;
+  }
+  
+  .contactMe {
+      padding-left: 20px;
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+  }
+  
+  Message @coaty
+  
