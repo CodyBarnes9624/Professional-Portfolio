@@ -1,0 +1,100 @@
+
+* {
+    margin: 0;
+    padding: 0;}
+    .navContainer {
+        padding-top: 20px;
+        height: 45px;
+        background-color: grey;
+        display: flex;
+        justify-content: space-between;}
+    .navItems {
+        display: flex;
+        flex-direction: row;}
+  
+      .aboutMeContainer {
+          display: flex;
+          flex-direction: row;
+          padding-top: 50px;
+          width: 1500px;
+      }
+  
+      .aboutMeHeader {
+          padding-right: 20px;
+          border-right: solid red 7px;
+      }
+  
+      .aboutMeParagraph {
+          padding-left: 20px;
+      }
+  
+      .workHistoryContainer {
+          display: flex;
+          flex-direction: row;
+          padding-top: 50px;
+          width: 1500px;
+      }
+  
+      .workHistoryHeader {
+          padding-right: 20px;
+          border-right: solid red 7px;
+      }
+  
+      .workHistoryContainer {
+          display: flex;
+      }
+  
+      .workHistoryPhotos {
+          padding-left: 20px;
+      }
+  
+      .portfolioContainer {
+          display: flex;
+          align-items: center;
+          flex-direction: column;
+      }
+  
+      p {
+          font-size: 22px;
+          margin-right: 25px;
+          font-weight: bold;
+      }
+  
+      a {
+          text-decoration: none;
+          color: inherit;
+      }
+  
+      a:hover {
+          color: darkgrey;
+      }
+  
+      img {
+          width: 500px;
+          height: 300px;
+          padding-right: 20px;
+          padding-bottom: 20px;
+          border-radius: 15px;
+      }
+  
+      img:hover {
+          opacity: 50%;
+      }
+
+      .contactMeContainer {
+        display: flex;
+        flex-direction: row;
+        padding-top: 50px;
+        width: 1500px;
+    }
+
+    .contactMeHeader {
+        padding-right: 20px;
+        border-right: solid red 7px;
+    }
+
+    .contactMe {
+        padding-left: 20px;
+        display: flex;
+        flex-direction: row;
+    }
