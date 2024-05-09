@@ -6,7 +6,8 @@
   .navContainer {
       padding-top: 20px;
       height: 45px;
-      background-color: grey;
+      background-color: #233142;
+      color: #e3e3e3;
       display: flex;
       justify-content: space-between;
   }
@@ -25,7 +26,8 @@
   
   .aboutMeHeader {
       padding-right: 20px;
-      border-right: solid red 7px;
+      border-right: solid #FF8C00 7px;
+      line-height: 75px;
   }
   
   .aboutMeParagraph {
@@ -41,7 +43,7 @@
   
   .workHistoryHeader {
       padding-right: 20px;
-      border-right: solid red 7px;
+      border-right: solid #FF8C00 7px;
   }
   
   .workHistoryContainer {
@@ -58,30 +60,15 @@
       flex-direction: column;
   }
   
-  p {
-      font-size: 22px;
-      margin-right: 25px;
-      font-weight: bold;
-  }
-  
-  a {
-      text-decoration: none;
-      color: inherit;
-  }
-  
-  a:hover {
-      color: darkgrey;
-  }
-  
-  img {
+  .container img {
       width: 500px;
       height: 300px;
-      padding-right: 20px;
-      padding-bottom: 20px;
-      border-radius: 15px;
+      margin-right: 20px;
+      margin-bottom: 20px;
+      border-radius: 13px;
   }
   
-  img:hover {
+  .workHistoryPhotos img:hover {
       opacity: 50%;
   }
   
@@ -95,7 +82,7 @@
   
   .contactMeHeader {
       padding-right: 20px;
-      border-right: solid red 7px;
+      border-right: solid #FF8C00 7px;
   }
   
   .contactMe {
@@ -105,5 +92,54 @@
       align-items: center;
   }
   
- 
+  .header-pic {
+      width: 99vw;
+      height: 300px;
+      object-fit: cover; 
+  }
   
+  .testingJavaScript {
+      display: flex; 
+      align-items: center; 
+      flex-direction: column;
+      padding-top: 25px;
+  }
+  
+  #easterEgg {
+      padding-top: 10px;
+  }
+  
+  button {
+      background-color: #FF8C00;
+      height: 35px;
+      width: 100px;
+      border-radius: 10px;
+      position: relative;
+      right: 12px;
+  }
+  
+  h1 {
+      width: 100px;
+  }
+  
+  p {
+      font-size: 22px;
+      margin-right: 25px;
+      font-weight: bold;
+  }
+  
+  a {
+      text-decoration: none;
+      color: inherit;
+  }
+  
+  a:hover {
+      color: #FF8C00;
+  }
+  
+  
+
+
+  
+
+   
