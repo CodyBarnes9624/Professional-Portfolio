@@ -2,7 +2,7 @@
 
 This is a homework assignment where I had to put together a portfolio for all of my upcoming projects in this bootcamp!
 
-Visit my sit here --> 
+Visit my sit here --> https://codybarnes9624.github.io/Professional-Portfolio/
 
 
 ## Authors
